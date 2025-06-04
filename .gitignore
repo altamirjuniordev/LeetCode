@@ -1,0 +1,41 @@
+
+## Ignore arquivos de build e pastas temporárias
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Backup e arquivos temporários
+*.bak
+*.tmp
+*.log
+
+## Sistema
+.DS_Store
+Thumbs.db
+
+## Build do Rider/JetBrains
+.idea/
+
+## Arquivos de pacotes NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Arquivos do Teste
+TestResults/
+
+## Arquivos de publicação
+publish/
+
+## Arquivos locais do sistema operacional
+*.swp
+*.db
+*.pid
