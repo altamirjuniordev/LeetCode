@@ -24,7 +24,7 @@ A proposta é resolver **um desafio por vez**, com foco em:
 Você precisa do [.NET 6 ou 8 SDK](https://dotnet.microsoft.com/en-us/download) instalado.
 
 ```bash
-git clone https://github.com/seu-usuario/LeetCodeSolutions.git
+git clone https://github.com/altamirjuniordev/LeetCode.git
 cd LeetCodeSolutions
 dotnet run
 ```
