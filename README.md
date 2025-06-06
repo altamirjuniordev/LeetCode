@@ -52,6 +52,25 @@ target = 9
 
 ---
 
+### 2. Valid Parentheses (`Problems/ValidParentheses.cs`)
+
+🔗 [LeetCode #20 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+> Verifica se uma string contendo apenas parênteses (`()`, `{}`, `[]`) é válida.  
+> Uma string é considerada válida se os parênteses forem fechados na ordem correta e de forma balanceada.
+
+A lógica usa uma **pilha (stack)** para empilhar os caracteres de abertura e verificar se cada fechamento corresponde ao topo da pilha.
+
+```csharp
+s = "()[]{}"
+// Resultado: true
+
+s = "(]"
+// Resultado: false
+```
+
+---
+
 ## 🚧 Em desenvolvimento
 
 - ✅ Problemas fáceis e médios
